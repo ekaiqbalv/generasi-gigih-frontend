@@ -1,0 +1,7 @@
+.playlist-container {
+  background-color: whitesmoke;
+  border: 1px solid grey;
+  border-radius: 8px;
+  margin: 16px;
+  padding: 24px;
+}
