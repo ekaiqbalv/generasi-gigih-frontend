@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Playlist</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+
+  <body>
+    <h1>Create Playlist</h1>
+    <form onsubmit="onSubmitForm()">
+      <div>
+        <label for="title">Title</label>
+        <input type="text" id="title" name="title" />
+      </div>
+      <div>
+        <label for="description">Description</label>
+        <input type="text" id="description" name="description" />
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+    <div class="playlist-container">
+      <img
+        id="music-cover"
+        alt="Music Cover"
+        height="320"
+      />
+      <p id="track-name"></p>
+      <p id="artist-name"></p>
+      <p id="album-name"></p>
+      <button>Select</button>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
